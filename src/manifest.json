@@ -1,0 +1,37 @@
+{
+  "compatibleVersion": 3,
+  "description": "Round off decimal values from artboards.",
+  "author":"Roy",
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Round off Card Corners",
+      "identifier": "Round off Card Corners",
+      "script": "./normalize.js",
+      "handler":"iterate_corner"
+    }, 
+    {
+      "name": "Round off Cards",
+      "identifier": "Round off Cards",
+      "script": "./normalize.js",
+      "handler":"iterate_length"
+    },
+    {
+      "name": "Round off Text",
+      "identifier": "Round off Text",
+      "script": "./normalize.js",
+      "handler":"iterate_text"
+    }
+   
+  ],
+  "menu": {
+    "title": "Decimate",
+    "items": [
+      "Round off Text",
+      "Round off Cards",
+      "Round off Card Corners"
+
+    ]
+  }
+}
