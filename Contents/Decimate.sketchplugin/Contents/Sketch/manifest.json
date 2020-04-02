@@ -1,0 +1,29 @@
+{
+  
+  
+  "author": "Roy",
+  "bundleVersion": 1,
+  "icon": "icon_2.png",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Magic Wand",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier",
+      "shortcut": "ctrl d"
+    }
+  ],
+  "menu" : {
+    "title" : "Decimate2",
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.example.sketch.59e4b539-5dde-4edc-88ea-b67d5bd71cc9",
+  "version" : "1.1",
+  "description" : "Round off decimal values from fonts, edges and corners.",
+  "authorEmail" : "",
+  "name" : "Decimate2"
+}
